@@ -52,4 +52,11 @@ public class SwordTest {
         assertThat(sword1.sharpenWeapon()).isEqualTo("Ready for action");
     }
 
+    @Test
+    public void canSlash(){
+        assertThat(sword1.slash()).isEqualTo("Tis but a scratch!");
+        assertThat(sword2.slash()).isEqualTo("Nothing personnel kid");
+    }
+
+
 }
