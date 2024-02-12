@@ -49,6 +49,10 @@ public class ArmouryTest {
         assertThat(armoury.getWeapons()).isEqualTo(weapons);
     }
 
-    
+    @Test
+    public void canForgeWeapon(){
+        armoury.forgeWeapon(sword2);
+        assertThat(armoury.getWeapons().contains(sword2)).isEqualTo(true);
+    }
 
 }

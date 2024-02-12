@@ -26,7 +26,9 @@ public class Armoury {
         this.weapons = weapons;
     }
 
-
+    public void forgeWeapon(Weapon weapon){
+        this.weapons.add(weapon);
+    }
 }
 
 
