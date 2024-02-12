@@ -29,6 +29,13 @@ public class Armoury {
     public void forgeWeapon(Weapon weapon){
         this.weapons.add(weapon);
     }
+
+    public String admireWeapons(){
+        if (this.weapons.isEmpty()){
+            return ("My glorious Armoury is empty! I am ruined!");
+        }
+        return String.format("My glorious %s Armoury contains %d weapons! I am ready for war!", this.name, this.weapons.size());
+    }
 }
 
 

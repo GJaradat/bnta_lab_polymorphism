@@ -55,4 +55,11 @@ public class ArmouryTest {
         assertThat(armoury.getWeapons().contains(sword2)).isEqualTo(true);
     }
 
+    @Test
+    public void canAdmireWeapons(){
+        assertThat(armoury.admireWeapons()).isEqualTo("My glorious Unlimited Bladeworks Armoury contains 2 weapons! I am ready for war!");
+
+        armoury.setWeapons(new ArrayList<>());
+        assertThat(armoury.admireWeapons()).isEqualTo("My glorious Armoury is empty! I am ruined!");
+    }
 }
