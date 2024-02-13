@@ -1,1 +1,1 @@
-![image](https://github.com/GJaradat/bnta_lab_polymorphism/assets/92640386/6d6916f2-1f89-4f40-9392-c4ea3571b5be)
+![image](https://github.com/GJaradat/bnta_lab_polymorphism/assets/92640386/94af286e-f036-4255-bdae-36abcc89f529)
