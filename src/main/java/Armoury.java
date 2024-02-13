@@ -26,7 +26,7 @@ public class Armoury {
         this.weapons = weapons;
     }
 
-    public void forgeWeapon(Weapon weapon){
+    public void forgeWeapon(IEnchant weapon){
         this.weapons.add(weapon);
     }
 

@@ -1,4 +1,4 @@
-public class Spear extends Weapon{
+public class Spear extends Weapon implements IEnchant{
 
     private double length;
 

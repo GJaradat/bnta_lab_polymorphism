@@ -1,4 +1,4 @@
-public abstract class Weapon implements IEnchant{
+public abstract class Weapon{
 
     private String name;
     private String material;

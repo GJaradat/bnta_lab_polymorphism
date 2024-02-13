@@ -1,4 +1,4 @@
-public class Sword extends Weapon{
+public class Sword extends Weapon implements IEnchant{
 
     private boolean doubleEdged;
 

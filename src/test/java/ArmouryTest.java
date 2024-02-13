@@ -12,6 +12,7 @@ public class ArmouryTest {
     Sword sword2;
     Spear spear1;
     Spear spear2;
+    Ring ring;
     ArrayList<IEnchant> weapons;
 
     @BeforeEach
@@ -22,9 +23,12 @@ public class ArmouryTest {
         spear1 = new Spear("Gungnir","Norse steel, Yggdrasil wood", 1.65);
         spear2 = new Spear("Lance of St. Longinus","Holy wood", 2.20);
 
+        ring = new Ring("Ring of the Nibelung", true);
+
         weapons = new ArrayList<>();
         weapons.add(sword1);
         weapons.add(spear1);
+        weapons.add(ring);
         armoury = new Armoury("Unlimited Bladeworks",weapons);
     }
 
@@ -57,7 +61,7 @@ public class ArmouryTest {
 
     @Test
     public void canAdmireWeapons(){
-        assertThat(armoury.admireWeapons()).isEqualTo("My glorious Unlimited Bladeworks Armoury contains 2 weapons! I am ready for war!");
+        assertThat(armoury.admireWeapons()).isEqualTo("My glorious Unlimited Bladeworks Armoury contains 3 weapons! I am ready for war!");
 
         armoury.setWeapons(new ArrayList<>());
         assertThat(armoury.admireWeapons()).isEqualTo("My glorious Armoury is empty! I am ruined!");
