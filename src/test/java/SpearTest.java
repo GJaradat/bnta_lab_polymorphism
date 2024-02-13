@@ -45,4 +45,14 @@ public class SpearTest {
     public void canSharpenWeapon(){
         assertThat(spear1.sharpenWeapon()).isEqualTo("It's stabbing time!");
     }
+
+    @Test
+    public void canImbueElement(){
+        assertThat(spear1.imbueElement("frost")).isEqualTo("Now my Gungnir carries the power of the frost element!");
+    }
+    @Test
+    public void canEnchant(){
+        assertThat(spear1.addEnchantment("durability")).isEqualTo("The Gungnir got increased durability!");
+    }
+
 }

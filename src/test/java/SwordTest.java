@@ -63,4 +63,14 @@ public class SwordTest {
         assertThat(sword1.practice()).isEqualTo("I got better with the sword!");
     }
 
+    @Test
+    public void canImbueElement(){
+        assertThat(sword1.imbueElement("holy")).isEqualTo("Now my Excalibur carries the power of the holy element!");
+    }
+    @Test
+    public void canEnchant(){
+        assertThat(sword1.addEnchantment("sharpness")).isEqualTo("The Excalibur got increased sharpness!");
+    }
+
+
 }
