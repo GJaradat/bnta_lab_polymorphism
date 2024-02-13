@@ -31,4 +31,9 @@ public class SpearTest {
         assertThat(spear2.stab()).isEqualTo("Can't escape this!");
     }
 
+    @Test
+    public void canStabOverload(){
+        assertThat(spear2.stab(10)).isEqualTo("I will make you hole-y!");
+    }
+
 }

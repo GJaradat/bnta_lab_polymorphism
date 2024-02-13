@@ -23,4 +23,9 @@ public class Spear extends Weapon{
             return "Can't escape this!";
         }
     }
+
+    public String stab(int stabs){
+        return "I will make you hole-y!";
+    }
+
 }
