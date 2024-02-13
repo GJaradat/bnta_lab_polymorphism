@@ -3,9 +3,9 @@ import java.util.ArrayList;
 public class Armoury {
 
     private String name;
-    private ArrayList<Weapon> weapons;
+    private ArrayList<IEnchant> weapons;
 
-    public Armoury(String name, ArrayList<Weapon> weapons){
+    public Armoury(String name, ArrayList<IEnchant> weapons){
         this.name = name;
         this.weapons = weapons;
     }
@@ -18,11 +18,11 @@ public class Armoury {
         this.name = name;
     }
 
-    public ArrayList<Weapon> getWeapons() {
+    public ArrayList<IEnchant> getWeapons() {
         return weapons;
     }
 
-    public void setWeapons(ArrayList<Weapon> weapons) {
+    public void setWeapons(ArrayList<IEnchant> weapons) {
         this.weapons = weapons;
     }
 

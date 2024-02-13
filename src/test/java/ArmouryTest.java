@@ -12,7 +12,7 @@ public class ArmouryTest {
     Sword sword2;
     Spear spear1;
     Spear spear2;
-    ArrayList<Weapon> weapons;
+    ArrayList<IEnchant> weapons;
 
     @BeforeEach
     public void setUp(){
