@@ -24,4 +24,8 @@ public class Sword extends Weapon{
         }
     }
 
+    public String practice(){
+        return "I got better with the sword!";
+    }
+
 }

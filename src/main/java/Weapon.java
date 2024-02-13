@@ -27,4 +27,6 @@ public abstract class Weapon {
     public String sharpenWeapon(){
         return "Ready for action";
     }
+
+    public abstract String practice();
 }

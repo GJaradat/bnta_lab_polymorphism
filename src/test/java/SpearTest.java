@@ -36,4 +36,9 @@ public class SpearTest {
         assertThat(spear2.stab(10)).isEqualTo("I will make you hole-y!");
     }
 
+    @Test
+    public void canPractice(){
+        assertThat(spear1.practice()).isEqualTo("I got better with the spear!");
+    }
+
 }

@@ -28,4 +28,8 @@ public class Spear extends Weapon{
         return "I will make you hole-y!";
     }
 
+    public String practice(){
+        return "I got better with the spear!";
+    }
+
 }

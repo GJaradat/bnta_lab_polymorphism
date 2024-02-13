@@ -58,5 +58,9 @@ public class SwordTest {
         assertThat(sword2.slash()).isEqualTo("Nothing personnel kid");
     }
 
+    @Test
+    public void canPractice(){
+        assertThat(sword1.practice()).isEqualTo("I got better with the sword!");
+    }
 
 }
