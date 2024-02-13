@@ -32,4 +32,8 @@ public class Spear extends Weapon{
         return "I got better with the spear!";
     }
 
+    @Override
+    public String sharpenWeapon(){
+        return "It's stabbing time!";
+    }
 }
