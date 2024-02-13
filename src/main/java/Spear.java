@@ -36,12 +36,11 @@ public class Spear extends Weapon{
     public String sharpenWeapon(){
         return "It's stabbing time!";
     }
-    @Override
+
     public String imbueElement(String element) {
         return String.format("Now my %s carries the power of the %s element!", this.getName(), element);
     }
 
-    @Override
     public String addEnchantment(String enchantment) {
         return String.format("The %s got increased %s!",this.getName(),enchantment);
     }

@@ -1,4 +1,4 @@
-public abstract class Weapon implements EnchanterTable{
+public abstract class Weapon implements IEnchant{
 
     private String name;
     private String material;
